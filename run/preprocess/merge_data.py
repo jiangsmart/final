@@ -11,7 +11,7 @@ def run(args):
     print "---------", conf_file
     conf = conf_parser.ConfParser(conf_file)
 
-    conf.load('DeCardUser')
+    conf.load('MergeData')
     input_dir = conf.get('input')
     if not input_dir:
         input_dir = os.path.join(conf.get('root_dir'), 'DeAbnormalUser', conf.get('province'), conf.get('month'))

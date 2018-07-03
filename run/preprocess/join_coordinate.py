@@ -34,7 +34,7 @@ def run(args):
     join_coordinate_params.append(conf.get('month'))
     join_coordinate_params.append(conf.get('province'))
     join_coordinate_params.append(conf.get('cell_info_dir'))
-    join_coordinate_params.append(conf.get('tele_user_info_dir'))  # 是否传参
+    join_coordinate_params.append(conf.get('tele_usmergeDistinctNormalUserLocer_info_dir'))  # 是否传参
     cluster['params'] = join_coordinate_params
     cluster['main_class'] = conf.get('main_class')
     cluster['driver'] = conf.get('driver')

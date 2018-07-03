@@ -12,10 +12,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="common" target="1.5" />
-      <module name="dataPreprocess" target="1.5" />
-      <module name="model" target="1.5" />
-      <module name="trajectoryanalysis" target="1.5" />
+      <module name="common" target="1.6" />
+      <module name="dataPreprocess" target="1.6" />
+      <module name="model" target="1.6" />
+      <module name="trajectoryanalysis" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>

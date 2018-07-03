@@ -14,7 +14,7 @@ def run(args):
     conf.load('DeCardUser')
     input_dir = conf.get('input')
     if not input_dir:
-        input_dir = os.path.join(conf.get('root_dir'), 'MergeData', conf.get('province'), conf.get('month'))
+        input_dir = os.path.join(conf.get('root_dir'), 'SplitbyProv', conf.get('province'), conf.get('month'))
 
     output_dir = args['output']
     if not output_dir:
@@ -34,7 +34,7 @@ def run(args):
     de_card_user_params = list()
     de_card_user_params.append(conf.get('month'))
     de_card_user_params.append(conf.get('month'))
-    true_user_dir = os.path.join(conf.get('root_dir'), 'User', conf.get('month'), conf.get('month'))
+    true_user_dir = os.path.join(conf.get('root_dir'), 'User', conf.get('province'), conf.get('month'))
 
     # start_time = args['params'][0]  ##未写
     # end_time = args['params'][1]  ##未写

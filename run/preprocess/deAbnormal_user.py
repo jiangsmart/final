@@ -14,7 +14,7 @@ def run(args):
     conf.load('DeAbnormalUser')
     input_dir = conf.get('input')
     if not input_dir:
-        input_dir = os.path.join(conf.get('root_dir'), 'SplitbyProv', conf.get('province'), conf.get('month'))
+        input_dir = os.path.join(conf.get('root_dir'), 'JoinCoordin', conf.get('province'), conf.get('month'))
 
     output_dir = args['output']
     if not output_dir:
